@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #6B3CC9;
+    padding: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+
+.topList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.headerItem {
+    margin-right: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    font-size: 14px; /* Adjust the font size as needed */
+}
+
+
+.banner {
+    position: relative;
+}
+
+.greenBox {
+    position: absolute;
+    bottom: 40px;
+    left: 90px;
+    width: 30%;
+    background: linear-gradient(256.73deg, #1CBDDD 27.86%, #4DCA79 100%), linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: white;
+    padding-left : 40px;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+
+}
+
+.orangeButton {
+    background-color:#F28D35;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 40px;
+
+}
+
+.headingtxt {
+   
+   font-family: Poppins;
+   font-size: 27px;
+   font-weight: 600;
+   line-height: 33px;
+   letter-spacing: 0.4000000059604645px;
+   text-align: left;
+   color: #6B3CC9;
+}
+
+.paragraph1 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+.biggerlogo {
+    margin-left: 250px;
+}
+
+.orangeButton2 {
+    background-color: #F28D35;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.logoAndText {
+    display: flex;
+    align-items: center;
+}
+
+
+.textContainer {
+    padding-left: 250px;
+
+
+}
+
+
+.headingtxt2 {
+   
+   font-family: Poppins;
+   font-size: 27px;
+   font-weight: 600;
+   line-height: 33px;
+   letter-spacing: 0.4000000059604645px;
+   text-align: left;
+   color: #6B3CC9;
+}
+
+.paragraph2 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: black;
+
+}
+
+.orangeButton3 {
+    background-color: #F28D35;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-bottom: auto;
+}
+
+
+
+.textContainer2 {
+    margin-left: 275px;
+    margin-top: 50px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}   
+
+.textContainer2 {
+    flex: 1; 
+    margin-right: 20px; 
+}
+
+.logoAndText2 {
+    display: flex;
+    align-items: center;
+}
+
+.biggerlogo2 {
+    flex: 1; 
+    margin-right: 500px; 
+}
+
+
+
+
+footer {
+    background-color: #6B3CC9;
+    padding: 30px;
+    text-align: left;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+
+}
+
+.footerLogo img {
+    width: 25px; 
+    margin-right: 10px;
+}
+
+.footerText {
+    font-size: 10px;
+}
+
+.footerText {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+}
+
+.points {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#FFFFFF;
+
+}
+.divider {
+    width: 50%;
+    margin: 20px auto;
+    border-top: 1px solid #ccc;
+}
+
+.ourTechnologies {
+    text-align: left;
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 20px;
+}
+
+.servicesList {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+.legalLinks {
+    color: white;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
